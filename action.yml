@@ -15,7 +15,7 @@ outputs:
   cache-hit:
     description: A boolean string (true or false) representing if the cache was successfully restored.
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'action/main.js'
   post: 'action/post.js'
   post-if: 'success()'
